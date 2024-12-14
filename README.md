@@ -36,6 +36,12 @@ pip install -r requirements.txt
 <pre>sh scripts/caption_mplug_base.sh</pre> 
 <pre>sh scripts/caption_mplug_large.sh</pre>  
 
+### Run
+
+1. Open `mPLUG_implementation.ipynb` and Change the paths in the code to your paths for dataset and other directories
+2. After installing the requirements, run each cell in the order to the get the required results
+
+
                                                                                           
 
 
