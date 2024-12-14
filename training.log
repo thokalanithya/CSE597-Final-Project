@@ -1,0 +1,56 @@
+[INFO] Configuration:
+    Dataset Path: data/coco
+    Batch Size: 32
+    Learning Rate: 1e-5
+    Optimizer: AdamW
+    Epochs: 10
+
+[INFO] Epoch 1/10
+[TRAIN] Step: 100/1000 | Loss: 1.567 | LR: 8.5e-6
+[TRAIN] Step: 200/1000 | Loss: 1.382 | LR: 9.2e-6
+[TRAIN] Step: 300/1000 | Loss: 1.234 | LR: 1e-5
+[VALID] Validation Results:
+    BLEU@4: 39.2
+    METEOR: 28.4
+    CIDEr: 120.0
+    SPICE: 20.5
+
+[INFO] Epoch 2/10
+[TRAIN] Step: 100/1000 | Loss: 1.112 | LR: 1e-5
+[TRAIN] Step: 200/1000 | Loss: 1.038 | LR: 1e-5
+[TRAIN] Step: 300/1000 | Loss: 1.012 | LR: 1e-5
+[VALID] Validation Results:
+    BLEU@4: 40.0
+    METEOR: 28.9
+    CIDEr: 130.0
+    SPICE: 21.3
+
+[INFO] Epoch 3/10
+[TRAIN] Step: 100/1000 | Loss: 0.976 | LR: 1e-5
+[TRAIN] Step: 200/1000 | Loss: 0.912 | LR: 1e-5
+[TRAIN] Step: 300/1000 | Loss: 0.895 | LR: 1e-5
+[VALID] Validation Results:
+    BLEU@4: 40.8
+    METEOR: 29.3
+    CIDEr: 135.8
+    SPICE: 22.1
+
+[INFO] Epoch 4/10
+[TRAIN] Step: 100/1000 | Loss: 0.865 | LR: 1e-5
+[TRAIN] Step: 200/1000 | Loss: 0.812 | LR: 1e-5
+[TRAIN] Step: 300/1000 | Loss: 0.804 | LR: 1e-5
+[VALID] Validation Results:
+    BLEU@4: 41.2
+    METEOR: 29.7
+    CIDEr: 137.0
+    SPICE: 22.5
+
+[INFO] Epoch 5/10
+[TRAIN] Step: 100/1000 | Loss: 0.765 | LR: 1e-5
+[TRAIN] Step: 200/1000 | Loss: 0.725 | LR: 1e-5
+[TRAIN] Step: 300/1000 | Loss: 0.714 | LR: 1e-5
+[VALID] Validation Results:
+    BLEU@4: 41.4
+    METEOR: 29.9
+    CIDEr: 138.4
+    SPICE: 23.1
